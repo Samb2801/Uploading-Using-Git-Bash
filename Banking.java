@@ -1,7 +1,7 @@
 package IDFC;
 
 import java.util.Scanner; 
-class BankDetails {  
+class BankDetail {  
     private String accno;  
     private String name;  
     private String acc_type;  
@@ -92,7 +92,7 @@ public class Banking {
         Banking b =new Banking();
         System.out.print("How many number of customers do you want to input? ");  
         int n = sc.nextInt();  
-        BankDetails C[] = new BankDetails[n];  
+        BankDetail C[] = new BankDetail[n];  
         for (int i = 0; i < C.length; i++) {  
             C[i] = new BankDetails();  
             C[i].openAccount();  
